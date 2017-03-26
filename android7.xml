@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <remote fetch="https://github.com/" name="gh" />
+
+  <!-- Samsung S7 Device Trees -->
+  <project path="device/samsung/universal8890" name="8890dev/android_device_samsung_universal8890" remote="gh" revision="nougat" />
+  <!-- project path="device/samsung/hero-common" name="android_device_samsung_hero-common" remote="8890dev" / -->
+  <project path="device/samsung/herolte" name="8890dev/android_device_samsung_herolte" remote="gh" revision="LaOS-N" />
+  <project path="device/samsung/hero2lte" name="8890dev/android_device_samsung_hero2lte" remote="gh" revision="LaOS-N" />
+
+  <!-- Samsung S5 Device Trees -->
+    <project name="LineageOS/android_device_samsung_klte" path="device/samsung/klte" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_klteusc" path="device/samsung/klteusc" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_kltespr" path="device/samsung/kltespr" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_kltedv" path="device/samsung/kltedv" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="gh" revision="cm-14.1" />
+   
+  <!-- Samsung Tab S Device Trees -->
+
+  <!-- Samsung Tab S2 Device Trees -->
+  <project name="LineageOS/android_device_samsung_gts2-common" path="device/samsung/gts2-common" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_gts210ltexx" path="device/samsung/gts210ltexx" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_gts210wifi" path="device/samsung/gts210wifi" remote="gh" revision="cm-14.1" />
+  
+  <!-- Kernel -->
+  <project path="kernel/samsung/universal8890" name="8890dev/android_kernel_samsung_universal8890" remote="gh" revision="nougat" />
+  <project name="LineageOS/android_kernel_samsung_klte" path="kernel/samsung/klte" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_samsung_gts2" path="kernel/samsung/gts2" remote="gh" revision="cm-14.1" />
+
+  <!-- Vendor -->
+  <project path="vendor/samsung/universal8890" name="8890dev/android_vendor_samsung_universal8890" remote="gh" revision="nougat" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="gh" revision="cm-14.1" />
+
+  <!-- Hardware -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="gh" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="8890dev/android_hardware_samsung_slsi-cm_exynos" remote="gh" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" remote="gh" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" remote="gh" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos8890" name="8890dev/android_hardware_samsung_slsi-cm_exynos8890" remote="gh"  revision="nougat" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5433" path="hardware/samsung_slsi-cm/exynos5433" remote="gh" revision="cm-14.1" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0" name="8890dev/android_prebuilts_gcc_linux-x86_aarch64-linux-android-7.0" remote="gh" revision="nougat" clone-depth="1" />
+
+  <!-- Etc -->
+  <project path="external/stlport" name="LineageOS/android_external_stlport" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gh" revision="cm-14.1" />
+  
+  
+ 
+  
+</manifest>
