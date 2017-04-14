@@ -4,18 +4,17 @@
    <remote fetch="https://github.com/" name="gh" />
 
   <!-- Samsung S7 Device Trees -->
-  <project path="device/samsung/hero-common" name="ExynosRom/android_device_samsung_hero-common-1" remote="gh" revision="aex" />
-  <project path="device/samsung/herolte" name="ExynosRom/android_device_samsung_herolte" remote="gh" revision="aex" />
+  <project path="device/samsung/hero-common" name="ExynosRom/android_device_samsung_hero-common-1" remote="gh" revision="omni" />
+  <project path="device/samsung/herolte" name="ExynosRom/android_device_samsung_herolte" remote="gh" revision="omni" />
   <project path="device/samsung/hero2lte" name="ExynosRom/android_device_samsung_hero2lte" remote="gh" revision="aex" />
 
   <!-- Samsung Tab S2 Device Trees -->
   <project name="ExynosRom/android_device_samsung_gts2-common" path="device/samsung/gts2-common" remote="gh" revision="aex" />
-  <project name="ExynosRom/android_device_samsung_gts210ltexx" path="device/samsung/gts210ltexx" remote="gh" revision="aex" />
+  <project name="ExynosRom/android_device_samsung_gts210ltexx" path="device/samsung/gts210ltexx" remote="gh" revision="omni" />
   <project name="ExynosRom/android_device_samsung_gts210wifi" path="device/samsung/gts210wifi" remote="gh" revision="aex" />
   
   <!-- Kernel -->
-   <project path="kernel/samsung/universal8890-offical" name="8890dev/android_kernel_samsung_universal8890" remote="gh" revision="nougat" />
-  <project path="kernel/samsung/universal8890" name="kylothow/android_kernel_samsung_universal8890" remote="gh" revision="kylothow" />
+  <project path="kernel/samsung/universal8890" name="8890dev/android_kernel_samsung_universal8890" remote="gh" revision="nougat" />
   <project name="ExynosRom/android_kernel_samsung_gts2" path="kernel/samsung/gts2" remote="gh" revision="cm-14.1" />
 
   <!-- Vendor -->
@@ -33,8 +32,8 @@
 
   <!-- Etc -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gh" revision="cm-14.1" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" revision="cm-14.1" remote="gh" groups="pdk,linux,arm" clone-depth="1" />
+  <!-- remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" -->
+   <!-- project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" revision="cm-14.1" remote="gh" groups="pdk,linux,arm" clone-depth="1" -->
   
  
   
