@@ -4,9 +4,9 @@
    <remote fetch="https://github.com/" name="gh" />
 
   <!-- Samsung S7 Device Trees -->
-  <project path="device/samsung/hero-common" name="ExynosRom/android_device_samsung_hero-common-1" remote="gh" revision="aex" />
-  <project path="device/samsung/herolte" name="ExynosRom/android_device_samsung_herolte" remote="gh" revision="aex" />
-  <project path="device/samsung/hero2lte" name="ExynosRom/android_device_samsung_hero2lte" remote="gh" revision="aex" />
+  <project path="device/samsung/hero-common" name="ExynosRom/android_device_samsung_hero-common-1" remote="gh" revision="nougat" />
+  <project path="device/samsung/herolte" name="ExynosRom/android_device_samsung_herolte" remote="gh" revision="du" />
+  <project path="device/samsung/hero2lte" name="ExynosRom/android_device_samsung_hero2lte" remote="gh" revision="du" />
 
   <!-- Samsung Tab S2 Device Trees -->
   <project name="ExynosRom/android_device_samsung_gts2-common" path="device/samsung/gts2-common" remote="gh" revision="aex" />
