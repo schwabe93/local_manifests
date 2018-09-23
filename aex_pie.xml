@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Huawei Kirin Device Trees -->
+  <project path="device/huawei/kirin970-common" name="android_device_huawei_kirin970-common" remote="kirin" revision="9.x" />
+  <project path="device/huawei/blanc" name="android_device_huawei_blanc" remote="kirin" revision="9.x" />
+
+  <!-- Vendor -->
+  <project name="proprietary_vendor_huawei_kirin970-common" path="vendor/huawei/kirin970-common" remote="kirin" revision="9.x" />
+
+  <!-- Device Sample -->
+  <project path="device/sample" name="device/sample" groups="pdk-cw-fs,pdk" />
+  
+</manifest>
