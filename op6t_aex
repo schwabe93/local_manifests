@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote fetch="https://github.com/" name="gh" />
+
+  <!-- Huawei Kirin Device Trees -->
+  <project path="device/oneplus/sdm845-common" name="schwabe93/device_oneplus_sdm845-common" remote="gh" revision="9.x" />
+  <project path="device/oneplus/fajita" name="schwabe93/device_oneplus_fajita" remote="gh" revision="9.x" />
+
+  <!-- Vendor -->
+  <project name="markakash/vendor_oneplus" path="vendor/oneplus" remote="gh" revision="pie" />
+  
+  <!-- Kernel -->
+  <project name="markakash/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="gh" revision="pie" />
+
+  
+  </manifest>
